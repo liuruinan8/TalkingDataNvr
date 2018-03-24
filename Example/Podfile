@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TalkingDataNvr_Tests' do
+  pod 'TalkingDataNvr', :path => '../'
+  
+  
+end
