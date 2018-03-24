@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TalkingDataNvr'
-  s.version          = ‘1.1.0’
+  s.version          = '1.1.0'
   s.summary          = 'TalkingDataNvr.'
 
   s.description      = <<-DESC
