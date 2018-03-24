@@ -1,0 +1,6 @@
+framework module TalkingDataNvr {
+  umbrella header "TalkingDataNvr-umbrella.h"
+
+  export *
+  module * { export * }
+}

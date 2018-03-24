@@ -1,0 +1,16 @@
+PODS:
+  - TalkingDataNvr (0.1.0)
+
+DEPENDENCIES:
+  - TalkingDataNvr (from `../`)
+
+EXTERNAL SOURCES:
+  TalkingDataNvr:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TalkingDataNvr: 1fc7e943d75057cadf03416d2fc6c3429c162dd5
+
+PODFILE CHECKSUM: 1a77aceeabc0759bd8bb09b3073248c8930df507
+
+COCOAPODS: 1.4.0

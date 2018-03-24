@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DB1B5E317E2D2E28A5CAC9E1AA077D /* TalkingDataNvr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A468131004AA7DB5831A498A271647 /* TalkingDataNvr-dummy.m */; };
+		3F7283EC0ECB58730C4FACBE2027B302 /* Pods-TalkingDataNvr_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F706865871884AE7B67EBCEEFD212E /* Pods-TalkingDataNvr_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C36968BA2AD47002858301009C5B52 /* Pods-TalkingDataNvr_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B52329DDB769B27EBF5388C77B328 /* Pods-TalkingDataNvr_Tests-dummy.m */; };
+		65C51AE43B02EE8CF6FF74F6DCB8EE38 /* TalkingDataNvr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B063354780F62C0DBB7A9788C4E6C4F /* TalkingDataNvr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE1DAE12EE952A06CF778FC03E53293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D591A118F72E963670C22CA5865B7D6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A9E2E3BD4349B23519AFDA436BF10 /* ReplaceMe.swift */; };
+		AD52DC92B617C4022999CE9B76EB10E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D47F73A788ECAE5EBC892C77BE9F55D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C19ADD7F5F2BBFD023ABDFAD4D6407;
+			remoteInfo = TalkingDataNvr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B063354780F62C0DBB7A9788C4E6C4F /* TalkingDataNvr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TalkingDataNvr-umbrella.h"; sourceTree = "<group>"; };
+		120DF96C74C8F59CB59F3069E3D8DEA9 /* Pods-TalkingDataNvr_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TalkingDataNvr_Tests.modulemap"; sourceTree = "<group>"; };
+		2ED1D1746EC87B128974CFD6CDCE36FE /* Pods-TalkingDataNvr_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TalkingDataNvr_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C9B52329DDB769B27EBF5388C77B328 /* Pods-TalkingDataNvr_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TalkingDataNvr_Tests-dummy.m"; sourceTree = "<group>"; };
+		46E759A5FE2AE0750463D4D531484471 /* TalkingDataNvr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TalkingDataNvr.modulemap; sourceTree = "<group>"; };
+		561B87AF0325CD3C39055CFD3882FF06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6278F95720C94C9B71307BCDACF7D6AC /* TalkingDataNvr.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TalkingDataNvr.podspec; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		836558E3D034C684BFE7A8ECBE97FECC /* Pods_TalkingDataNvr_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkingDataNvr_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F706865871884AE7B67EBCEEFD212E /* Pods-TalkingDataNvr_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TalkingDataNvr_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8551E802D5725D88849C5E0F824F36A4 /* Pods-TalkingDataNvr_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkingDataNvr_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		867A0F9032FFC68104351D49F7179824 /* Pods-TalkingDataNvr_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkingDataNvr_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8FA4F6EEFFB838F2DB3E1D577EA16BC9 /* TalkingDataNvr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TalkingDataNvr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01C5BC82719CA3069D6329D4F42A8D0 /* Pods-TalkingDataNvr_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TalkingDataNvr_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A193DBD6622402E75FD76D91B23DE9AB /* TalkingDataNvr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TalkingDataNvr.xcconfig; sourceTree = "<group>"; };
+		A61583445EFDA08570F0E5BC602EFFF1 /* Pods-TalkingDataNvr_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkingDataNvr_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B307B1C46158E41783614B68EEEE1D9E /* Pods-TalkingDataNvr_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkingDataNvr_Tests-resources.sh"; sourceTree = "<group>"; };
+		B8EE5363E220C9F5B7780A20E2EEC33D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3A9E2E3BD4349B23519AFDA436BF10 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TalkingDataNvr/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E6FFF58E3D4FE21064433E1D5FF2B230 /* TalkingDataNvr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TalkingDataNvr-prefix.pch"; sourceTree = "<group>"; };
+		F1E17F87F49FB44223E39ECA93685585 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F7A468131004AA7DB5831A498A271647 /* TalkingDataNvr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TalkingDataNvr-dummy.m"; sourceTree = "<group>"; };
+		F905D66BAF3A938D00DE55019B70EBAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0612357913EC74207696BD9271780AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52DC92B617C4022999CE9B76EB10E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84984752FAD3D6A6D3B3EBB5E4FE9EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE1DAE12EE952A06CF778FC03E53293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BB6554C9515BF9FCDB72D4EF04BCBA /* Pods-TalkingDataNvr_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B8EE5363E220C9F5B7780A20E2EEC33D /* Info.plist */,
+				120DF96C74C8F59CB59F3069E3D8DEA9 /* Pods-TalkingDataNvr_Tests.modulemap */,
+				A01C5BC82719CA3069D6329D4F42A8D0 /* Pods-TalkingDataNvr_Tests-acknowledgements.markdown */,
+				2ED1D1746EC87B128974CFD6CDCE36FE /* Pods-TalkingDataNvr_Tests-acknowledgements.plist */,
+				3C9B52329DDB769B27EBF5388C77B328 /* Pods-TalkingDataNvr_Tests-dummy.m */,
+				8551E802D5725D88849C5E0F824F36A4 /* Pods-TalkingDataNvr_Tests-frameworks.sh */,
+				B307B1C46158E41783614B68EEEE1D9E /* Pods-TalkingDataNvr_Tests-resources.sh */,
+				83F706865871884AE7B67EBCEEFD212E /* Pods-TalkingDataNvr_Tests-umbrella.h */,
+				A61583445EFDA08570F0E5BC602EFFF1 /* Pods-TalkingDataNvr_Tests.debug.xcconfig */,
+				867A0F9032FFC68104351D49F7179824 /* Pods-TalkingDataNvr_Tests.release.xcconfig */,
+			);
+			name = "Pods-TalkingDataNvr_Tests";
+			path = "Target Support Files/Pods-TalkingDataNvr_Tests";
+			sourceTree = "<group>";
+		};
+		188F91FDCFF1A996A73DF54CC84FD057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836558E3D034C684BFE7A8ECBE97FECC /* Pods_TalkingDataNvr_Tests.framework */,
+				8FA4F6EEFFB838F2DB3E1D577EA16BC9 /* TalkingDataNvr.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654BBA52EA3B5A91B2D64AC7267F40C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D94F4BE1D676D7FAF1D446F04232DC5B /* TalkingDataNvr */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				654BBA52EA3B5A91B2D64AC7267F40C0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				188F91FDCFF1A996A73DF54CC84FD057 /* Products */,
+				B9A6A8E692D1B34BEC57486304B50E31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D0FE0E6B08E33240F5739B25BDF097 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				561B87AF0325CD3C39055CFD3882FF06 /* Info.plist */,
+				46E759A5FE2AE0750463D4D531484471 /* TalkingDataNvr.modulemap */,
+				A193DBD6622402E75FD76D91B23DE9AB /* TalkingDataNvr.xcconfig */,
+				F7A468131004AA7DB5831A498A271647 /* TalkingDataNvr-dummy.m */,
+				E6FFF58E3D4FE21064433E1D5FF2B230 /* TalkingDataNvr-prefix.pch */,
+				0B063354780F62C0DBB7A9788C4E6C4F /* TalkingDataNvr-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TalkingDataNvr";
+			sourceTree = "<group>";
+		};
+		B9A6A8E692D1B34BEC57486304B50E31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02BB6554C9515BF9FCDB72D4EF04BCBA /* Pods-TalkingDataNvr_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D94F4BE1D676D7FAF1D446F04232DC5B /* TalkingDataNvr */ = {
+			isa = PBXGroup;
+			children = (
+				CA3A9E2E3BD4349B23519AFDA436BF10 /* ReplaceMe.swift */,
+				F2274A41BDCE1EEB6B4076A559261912 /* Pod */,
+				B5D0FE0E6B08E33240F5739B25BDF097 /* Support Files */,
+			);
+			name = TalkingDataNvr;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F2274A41BDCE1EEB6B4076A559261912 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1E17F87F49FB44223E39ECA93685585 /* LICENSE */,
+				F905D66BAF3A938D00DE55019B70EBAC /* README.md */,
+				6278F95720C94C9B71307BCDACF7D6AC /* TalkingDataNvr.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DEEBFC4DDD3101D96CEEF51282DC0F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C51AE43B02EE8CF6FF74F6DCB8EE38 /* TalkingDataNvr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8678796BAAD6D09FFC09440B1F4845E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7283EC0ECB58730C4FACBE2027B302 /* Pods-TalkingDataNvr_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60C19ADD7F5F2BBFD023ABDFAD4D6407 /* TalkingDataNvr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18354CB82A99B16866AFC7A0762A647 /* Build configuration list for PBXNativeTarget "TalkingDataNvr" */;
+			buildPhases = (
+				3088D98E55B0BC72092DB80A4626BC65 /* Sources */,
+				0612357913EC74207696BD9271780AD2 /* Frameworks */,
+				9DEEBFC4DDD3101D96CEEF51282DC0F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkingDataNvr;
+			productName = TalkingDataNvr;
+			productReference = 8FA4F6EEFFB838F2DB3E1D577EA16BC9 /* TalkingDataNvr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66454F28B031C4C31C213F9A91F50D8B /* Pods-TalkingDataNvr_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBC7ECF785E85526C38114AD58AD907 /* Build configuration list for PBXNativeTarget "Pods-TalkingDataNvr_Tests" */;
+			buildPhases = (
+				01B7383B53F3E741711B9266BCDF517B /* Sources */,
+				84984752FAD3D6A6D3B3EBB5E4FE9EC2 /* Frameworks */,
+				E8678796BAAD6D09FFC09440B1F4845E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C3F8DF9104BF86C34F57820FA4334B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TalkingDataNvr_Tests";
+			productName = "Pods-TalkingDataNvr_Tests";
+			productReference = 836558E3D034C684BFE7A8ECBE97FECC /* Pods_TalkingDataNvr_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 188F91FDCFF1A996A73DF54CC84FD057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66454F28B031C4C31C213F9A91F50D8B /* Pods-TalkingDataNvr_Tests */,
+				60C19ADD7F5F2BBFD023ABDFAD4D6407 /* TalkingDataNvr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B7383B53F3E741711B9266BCDF517B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C36968BA2AD47002858301009C5B52 /* Pods-TalkingDataNvr_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3088D98E55B0BC72092DB80A4626BC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D591A118F72E963670C22CA5865B7D6 /* ReplaceMe.swift in Sources */,
+				03DB1B5E317E2D2E28A5CAC9E1AA077D /* TalkingDataNvr-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C3F8DF9104BF86C34F57820FA4334B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TalkingDataNvr;
+			target = 60C19ADD7F5F2BBFD023ABDFAD4D6407 /* TalkingDataNvr */;
+			targetProxy = 5D47F73A788ECAE5EBC892C77BE9F55D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42D398DBC226294C9DDA61E01D190DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A193DBD6622402E75FD76D91B23DE9AB /* TalkingDataNvr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TalkingDataNvr/TalkingDataNvr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TalkingDataNvr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TalkingDataNvr/TalkingDataNvr.modulemap";
+				PRODUCT_NAME = TalkingDataNvr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6FCFC10374B153C00EA3EB003A2126AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61583445EFDA08570F0E5BC602EFFF1 /* Pods-TalkingDataNvr_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TalkingDataNvr_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TalkingDataNvr_Tests/Pods-TalkingDataNvr_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TalkingDataNvr_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F3605520DE939BBA38930DA631EF5229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A193DBD6622402E75FD76D91B23DE9AB /* TalkingDataNvr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TalkingDataNvr/TalkingDataNvr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TalkingDataNvr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TalkingDataNvr/TalkingDataNvr.modulemap";
+				PRODUCT_NAME = TalkingDataNvr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC6EFF7B3336124A6B678BBCF62B0BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867A0F9032FFC68104351D49F7179824 /* Pods-TalkingDataNvr_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TalkingDataNvr_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TalkingDataNvr_Tests/Pods-TalkingDataNvr_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TalkingDataNvr_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBC7ECF785E85526C38114AD58AD907 /* Build configuration list for PBXNativeTarget "Pods-TalkingDataNvr_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCFC10374B153C00EA3EB003A2126AC /* Debug */,
+				FC6EFF7B3336124A6B678BBCF62B0BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18354CB82A99B16866AFC7A0762A647 /* Build configuration list for PBXNativeTarget "TalkingDataNvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3605520DE939BBA38930DA631EF5229 /* Debug */,
+				42D398DBC226294C9DDA61E01D190DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
