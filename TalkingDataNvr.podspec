@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.source_files = 'TalkingDataNvr/Classes/*.{h,m}'
   s.public_header_files = 'TalkingDataNvr/Classes/TalkingData.h'
   s.vendored_libraries = 'TalkingDataNvr/Classes/libTalkingData.a'
-  s.libraries = "TalkingData", 'z'
+  s.libraries = 'TalkingData', 'z'
 end
